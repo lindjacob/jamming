@@ -1,5 +1,5 @@
 const clientID = 'afd25d22977d476fa61267ff8c873b34';
-const redirectURI = import.meta.env.VITE_APP_URL;
+const redirectURI = window.location.href.replace(/\/$/, '');
 let accessToken;
 
 const Spotify = {
