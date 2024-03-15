@@ -31,7 +31,7 @@ h2 {
 .jamming {
   min-height: 100vh;
   padding: 0 17% 0% 17%;
-  background-image: url('./background_photo_desktop.jpg');
+  background-image: url('./assets/jamming-bg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
